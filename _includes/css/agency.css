@@ -118,13 +118,17 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.btn-xl.buy-now-btn {
+    margin-top: 25px;
+}
+
 .btn-xl {
-    padding: 20px 40px;
+    padding: 30px 100px;
     border-color: #{{ site.color.primary }};
-    border-radius: 3px;
+    border-radius: 6px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -299,8 +303,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
@@ -336,6 +340,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     font-style: italic;
     font-weight: 400;
 }
@@ -655,7 +660,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -861,4 +865,20 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+/* Custom Styling */
+.link-item {
+    padding: 0px 100px;
+}
+.link-item .link-icon {
+    text-align: center;
+}
+.link-item .link-icon img {
+    width: 80%;
+    border-radius: 10%;
+}
+.link-item .link-desc {
+    padding: 15px;
+    text-align: center;
 }

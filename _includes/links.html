@@ -1,0 +1,25 @@
+<!-- Portfolio Grid Section -->
+<section id="links">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">More Info</h2>
+                <h3 class="section-subheading text-muted">If you're interested in learning more about Type I Diabetes and Diabetes research, take a look at some of the following links.</h3>
+            </div>
+        </div>
+        <div class="row">
+        {% for link in site.links %}
+            <div class="col-md-6 link-item">
+                <a href="{{link.url}}">
+                    <div class="link-icon">
+                        <img src="img/link-icons/{{link.icon}}" />
+                    </div>
+                    <div class="link-desc">
+                        {{link.desc}}
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
