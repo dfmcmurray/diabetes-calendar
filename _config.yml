@@ -8,8 +8,8 @@ description: "Diabetes Calendar :: All proceeds will go to charity."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 0E53A7
-  secondary: 4284D3  
+  primary: 6899D3
+  secondary: 4284D3   
   secondary-dark: 333
 
 # Team names, titles and social links
