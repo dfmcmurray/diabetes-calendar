@@ -882,3 +882,13 @@ body {
     padding: 15px;
     text-align: center;
 }
+section#contact form.wufoo .form-group label {
+    color: #ddd;
+    font-size: 16px;
+}
+section#contact form.wufoo .form-group textarea.form-control {
+    height: 297px;
+}
+section#contact form.wufoo .hidden-input {
+    display: none;
+}
