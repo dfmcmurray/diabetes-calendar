@@ -2,7 +2,7 @@ url: https://dfmcmurray.github.io/
 baseurl: /diabetes-calendar/
 
 # Site settings
-title: Diabetes Calendar
+title: 2015 Calendar
 email: dfmcmurray@gmail.com
 description: "Diabetes Calendar :: All proceeds will go to charity."
 
@@ -34,9 +34,13 @@ links:
   icon: jdrf.jpeg
   desc: "JDRF's mission is to find a cure for type 1 diabetes (T1D) and its complications through the support of research."
 
-- url: "http://www.diabetesresearch.org/"
-  icon: diabetes-research-inst.jpg
-  desc: "The largest and most comprehensive diabetes research center dedicated to curing diabetes, the DRI is aggressively working to shrink the timeline toward the discovery of a biological cure for this disease."
+- url: "http://diatribe.org"
+  icon: diaTribe.jpg
+  desc: "Research and product news for people with diabetes."
+
+- url: "http://carbdm.org"
+  icon: carbdm.jpg
+  desc: "Helping people with T1D seize diabetes and lead healthier, happier lives by connecting with a strong T1D community."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
