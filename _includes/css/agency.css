@@ -645,6 +645,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    box-shadow: 0 0 0 1px hsl(0, 0%, 70%);
 }
 
 .team-member h4 {
