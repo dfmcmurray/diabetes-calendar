@@ -965,6 +965,10 @@ section#contact form.wufoo .hidden-input {
     .modal-content td {
         padding: 15px;
     }
+    .modal-content th {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 .modal-content #quantityInput {
     width: 60px;
