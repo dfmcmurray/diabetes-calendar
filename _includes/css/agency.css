@@ -190,7 +190,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Oleo Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
     color: #{{ site.color.primary }};
 }
 
@@ -302,12 +303,19 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-heading-container {
     margin-bottom: 25px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
+    font-style: normal;
     line-height: 50px;
 }
 
@@ -325,8 +333,11 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro-heading-container {
         margin-bottom: 50px;
+    }
+
+    header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
@@ -948,8 +959,16 @@ section#contact form.wufoo .hidden-input {
     padding-right: 15px;
 }
 .modal-content td {
-    padding: 15px;
+    padding: 15px 5px;
+}
+@media(min-width:768px) {
+    .modal-content td {
+        padding: 15px;
+    }
 }
 .modal-content #quantityInput {
     width: 60px;
+}
+.modal-content .calendar-purchase-desc {
+    font-weight: normal;
 }
