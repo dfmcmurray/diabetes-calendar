@@ -14,3 +14,18 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Script to show/hide More Info questions -->
+    <script type="text/javascript">
+        $(function(){
+            $('.expand-info-desc').click(function(){
+                var desc = $('.info-desc[data-desc='+$(this).data('desc')+']');
+                if (desc.is(':visible')) {
+                    desc.slideUp();
+                } else {
+                    desc.slideDown();
+                }
+                $(this).toggleClass('shown');
+            });
+        });
+    </script>

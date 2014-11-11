@@ -895,6 +895,21 @@ section#links a:hover {
     padding: 15px;
     text-align: center;
 }
+section#links .expand-info-desc {
+    color: #{{ site.color.primary }};
+}
+section#links .expand-info-desc {
+    cursor: pointer;
+}
+section#links .expand-info-desc.shown {
+    -moz-transform: rotate(-90deg);
+    -webkit-transform:rotate(-90deg); 
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+}
+section#links .info-desc {
+    display: none;
+}
 section#sponsors .section-heading {
     margin-bottom: 70px;
 }
