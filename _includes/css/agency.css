@@ -933,6 +933,9 @@ section#contact form.wufoo .form-group textarea.form-control {
 section#contact form.wufoo .hidden-input {
     display: none;
 }
+.modal-content .close {
+    color: black;
+}
 .modal-content .calendar-purchase-desc {
     margin-bottom: 40px;
 }
