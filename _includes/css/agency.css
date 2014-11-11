@@ -955,8 +955,8 @@ section#contact form.wufoo .hidden-input {
     margin-right: auto;
 }
 .modal-content th {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .modal-content td {
     padding: 15px 5px;
@@ -966,8 +966,8 @@ section#contact form.wufoo .hidden-input {
         padding: 15px;
     }
     .modal-content th {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 .modal-content #quantityInput {
