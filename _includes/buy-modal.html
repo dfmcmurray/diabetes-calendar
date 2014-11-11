@@ -1,0 +1,42 @@
+ <!-- Buy Modal -->
+<div class="modal fade" id="buy" tabindex="-1" role="dialog" aria-labelledBy="buyModalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="buyModalTitle">Buy Calendar</h4>
+            </div>
+            <div class="modal-body">
+                <label class='calendar-purchase-desc'>Celebrate National Diabetes Awareness Month by pre-ordering your ${{site.calendarPrice}}.00 calendar. T1D Exposed will begin shipping on Dec 15th.</label>
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>T1D Exposed 2015 Calendar</label>
+                        </td>
+                        <td>
+                            <label>${{ site.calendarPrice }}.00</label>
+                        </td>
+                        <td>
+                            <div class="form-group quantity">
+                                <input class="form-control" id="quantityInput" maxlength="2" value="1"/>
+                            </div>
+                        </td>
+                        <td>
+                            <label class="order-total">$20.00</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary buy-calendar">Buy With PayPal</button>
+            </div>
+        </div>
+    </div>
+</div>

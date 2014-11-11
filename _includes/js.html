@@ -29,3 +29,34 @@
             });
         });
     </script>
+
+    <!-- Script update total price when quantity changes -->
+    <script type="text/javascript">
+
+        function quantityError() {
+            $('.quantity.form-group').addClass('has-error');
+            $('.buy-calendar.btn').attr('disabled', 'disabled');
+        }
+
+        $(function(){
+            $('#quantityInput').change(function() {
+                var quantity = $(this).val();
+                var price = parseInt({{site.calendarPrice}});
+                var total = 0;
+                var match = quantity.match(/[0-9][0-9]?/g)
+                if (match && match[0].length == quantity.length) {
+                    quantity = parseInt(quantity);
+                    if (quantity > 0) {
+                        $('.quantity.form-group').removeClass('has-error');
+                        $('.buy-calendar.btn').removeAttr('disabled');
+                        total = quantity * price;
+                    } else {
+                        quantityError();
+                    }
+                } else {
+                    quantityError();
+                }
+                $('.order-total').html('$'+total+'.00');
+            });
+        });
+    </script>
