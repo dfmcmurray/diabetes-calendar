@@ -902,13 +902,13 @@ section#links a:hover {
     padding: 15px;
     text-align: center;
 }
-section#links .expand-info-desc {
+section#links .expand-info-desc i {
     color: #{{ site.color.primary }};
 }
 section#links .expand-info-desc {
     cursor: pointer;
 }
-section#links .expand-info-desc.shown {
+section#links .expand-info-desc.shown i {
     -moz-transform: rotate(-90deg);
     -webkit-transform:rotate(-90deg); 
     -ms-transform:rotate(-90deg);
