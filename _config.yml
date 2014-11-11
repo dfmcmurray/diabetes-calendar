@@ -42,6 +42,18 @@ links:
   icon: carbdm.jpg
   desc: "Helping people with T1D seize diabetes and lead healthier, happier lives by connecting with a strong T1D community."
 
+#Sponsors
+sponsors:
+
+- url: "http://facebook.com"
+  icon: facebook.jpg
+
+- url: "http://taralayman.com"
+  icon: tara-layman-photography-dark.png
+
+- url: "http://dfmwebstudio.com"
+  icon: "dfm-web-studio.png"
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
