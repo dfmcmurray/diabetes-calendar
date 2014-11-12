@@ -891,6 +891,11 @@ body {
 }
 
 /* Custom Styling */
+.section-subheading {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 section#about .proj-about {
     max-width: 850px;
     margin-left: auto;
@@ -931,9 +936,6 @@ section#links .info-desc {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-}
-section#sponsors .section-heading {
-    margin-bottom: 70px;
 }
 section#contact form.wufoo .form-group label {
     color: #ddd;
