@@ -60,3 +60,31 @@
             });
         });
     </script>
+
+
+    <!-- Script to setup model info popover -->
+    <script type="text/javascript">
+        $(function(){
+            $('.team-member').popover({
+                placement: 'bottom',
+                trigger: 'hover click',
+                html: true,
+                content: function() {
+                    return ['<div class="member-popover">',
+
+                        '<h4>'+$(this).data('name')+'</h4>',
+
+                        '<h5 class="section-subheading text-semi-muted">',
+                        $(this).data('occupation'),
+                        '</h5>',
+
+                        '<p class="text-semi-muted">Living with T1D for ',
+                        $(this).data('years'),
+                        ' years.</p>',
+
+                        '</div>'
+                    ].join('')
+                }
+            });
+        });
+    </script>

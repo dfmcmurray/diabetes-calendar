@@ -17,14 +17,41 @@ color:
 # Team names, titles and social links
 people:
 - pic: 9
+  name: Tara Layman
+  occupation: Photographer
+  yearsWithDiabetes: N
 - pic: 1
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 6
+  name: Katie Craft
+  occupation: Child Life Specialist
+  yearsWithDiabetes: N
 - pic: 4
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 7
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 8
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 5
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 3
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 - pic: 2
+  name: Fname Lname
+  occupation: Occupation
+  yearsWithDiabetes: N
 
 # Team members per row
 peoplePerRow: 3

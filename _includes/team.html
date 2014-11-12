@@ -9,7 +9,7 @@
         <div class="row">
             {% for member in site.people %}
             <div class="col-xs-6 col-sm-{{ 12 | divided_by:site.peoplePerRow }}">
-                <div class="team-member">
+                <div class="team-member" data-name="{{ member.name }}" data-occupation="{{ member.occupation }}" data-years="{{ member.yearsWithDiabetes }}">
                     <img src="img/team/{{ member.pic }}_square_small.jpg" class="img-responsive img-circle" alt="">
                 </div>
             </div>
