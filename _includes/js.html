@@ -80,7 +80,9 @@
 
                         '<p class="text-semi-muted">Living with T1D for ',
                         $(this).data('years'),
-                        ' years.</p>',
+                        ' year',
+                         ($(this).data('years')>1)?'s':'',
+                         '.</p>',
 
                         '</div>'
                     ].join('')
