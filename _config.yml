@@ -21,33 +21,33 @@ people:
   occupation: Photographer
   yearsWithDiabetes: 20
 - pic: 1
-  name: Fname Lname
-  occupation: Occupation
-  yearsWithDiabetes: N
+  name: Lucas
+  occupation: Founder of DASH Camp
+  yearsWithDiabetes: 19
 - pic: 6
   name: Kat
   occupation: Healthcare Worker
   yearsWithDiabetes: 15
 - pic: 4
-  name: Fname Lname
-  occupation: Occupation
-  yearsWithDiabetes: N
+  name: Courtney
+  occupation: Community Builder
+  yearsWithDiabetes: 13
 - pic: 7
   name: Omid
   occupation: Researcher at Facebook
   yearsWithDiabetes: 9
 - pic: 8
-  name: Fname Lname
-  occupation: Occupation
-  yearsWithDiabetes: N
+  name: Julia
+  occupation: Hospitality and Tourism Student
+  yearsWithDiabetes: 19
 - pic: 5
-  name: Fname Lname
-  occupation: Occupation
-  yearsWithDiabetes: N
+  name: Johanna
+  occupation: Nursing Student
+  yearsWithDiabetes: 7
 - pic: 3
-  name: Fname Lname
-  occupation: Occupation
-  yearsWithDiabetes: N
+  name: Claire
+  occupation: Fashion and Consumer Studies Student
+  yearsWithDiabetes: 18
 - pic: 2
   name: Sam
   occupation: Clinical Social Worker
