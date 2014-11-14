@@ -80,6 +80,9 @@ sponsors:
 - url: "http://dfmwebstudio.com"
   icon: "dfm-web-studio.png"
 
+- url: "http://www.tandemdiabetes.com/"
+  icon: "Tandem-Diabetes-Care.jpeg"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
