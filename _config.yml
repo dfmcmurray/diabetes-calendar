@@ -59,6 +59,10 @@ peoplePerRow: 3
 # More Info links
 links:
 
+- url: "http://carbdm.org"
+  icon: carbdm.jpg
+  desc: "Helping people with T1D seize diabetes and lead healthier, happier lives by connecting with a strong T1D community."
+
 - url: "http://donate.jdrf.org/info/jdrf-qa/#about"
   icon: jdrf.jpeg
   desc: "JDRF's mission is to find a cure for type 1 diabetes (T1D) and its complications through the support of research."
@@ -66,10 +70,6 @@ links:
 - url: "http://diatribe.org"
   icon: diaTribe.jpg
   desc: "A newsletter with curated research and product news articles for people with diabetes."
-
-- url: "http://carbdm.org"
-  icon: carbdm.jpg
-  desc: "Helping people with T1D seize diabetes and lead healthier, happier lives by connecting with a strong T1D community."
 
 - url: "http://dyf.org/"
   icon: dyf.png
