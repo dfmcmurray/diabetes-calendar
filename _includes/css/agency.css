@@ -972,6 +972,9 @@ section#contact form.wufoo .hidden-input {
     margin-left: auto;
     margin-right: auto;
 }
+.modal-content .form-group {
+    margin-bottom: 0;
+}
 .modal-content .modal-body table {
     margin-bottom: 30px;
 }
@@ -981,8 +984,11 @@ section#contact form.wufoo .hidden-input {
 .modal-content .modal-footer table {
     margin-bottom: 20px;
 }
-.modal-content .form-control, input {
+.modal-content input.paypal-buy-now {
     border: none;
+}
+.modal-content input.paypal-buy-now[disabled="disabled"] {
+    opacity: 0.5;
 }
 .modal-content .modal-footer form {
     text-align: center;

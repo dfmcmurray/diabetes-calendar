@@ -25,20 +25,33 @@
                 <label class="text-muted">*If you live near Oakland, CA, you may opt to pick up the calendar directly and avoid the shipping cost.</label>
             </div>
             <div class="modal-footer">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <table>
-                    <tr><td><input type="hidden" name="on0" value="Shipping Option">Calendar with Shipping Option</td></tr><tr><td><select name="os0">
-                        <option value="Standard Shipping">w/ Standard Shipping - $23.50</option>
-                        <option value="Local Pick-Up">w/ Local Pick-Up - $20.00</option>
-                    </select> </td></tr>
-                    </table>
+                <form class="form-horizontal" role="form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="t1dexposed@gmail.com">
+                    <input type="hidden" name="lc" value="US">
+                    <input type="hidden" name="item_name" value="T1D Exposed 2015 Calendar">
+                    <input type="hidden" name="amount" value="20.00">
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-                    ">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="hidden" name="button_subtype" value="services">
+                    <input type="hidden" name="no_note" value="0">
+                    <input type="hidden" name="shipping">
+                    <table><tr><td>
+                        <div class="form-group quantity-container">
+                            <label for="calendar-quantity" class="col-sm-4 col-sm-offset-2 control-label">Quantity:</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="col-sm-3 form-control" id="calendar-quantity" name="quantity" maxlength="2" value="1">
+                            </div>
+                        </div>
+                    </td></tr></table>
+                    <table><tr><td><label>Shipping Option:</label></td></tr><tr><td><select name="shipping">
+                        <option value="3.50">Standard Shipping - $3.50</option>
+                        <option value="0">Local Pick-Up - Free</option>
+                    </select> </td></tr></table>
+                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                    <input type="image" class="paypal-buy-now" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
+
             </div>
         </div>
     </div>
