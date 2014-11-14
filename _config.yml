@@ -71,6 +71,10 @@ links:
   icon: carbdm.jpg
   desc: "Helping people with T1D seize diabetes and lead healthier, happier lives by connecting with a strong T1D community."
 
+- url: "http://dyf.org/"
+  icon: dyf.png
+  desc: "DYF’s education and recreational programs equip children, teens & families with the courage, competence and confidence to live well with T1D."
+
 #Sponsors
 sponsors:
 
