@@ -52,8 +52,24 @@ people:
   name: Sam
   occupation: Clinical Social Worker
   yearsWithDiabetes: 1
-
+- pic: 10
+  name: Jeannie
+  occupation: "RN, CDE, Camp Nurse"
+  yearsWithDiabetes: 50
+- pic: 11
+  name: Stephanie
+  occupation: Graduate Student in Cinema Studies
+  yearsWithDiabetes: 10
+- pic: 12
+  name: Emily
+  occupation: Legal Studies Student
+  yearsWithDiabetes: 12
+- pic: 13
+  name: Marit
+  occupation: Executive Assistant/Student
+  yearsWithDiabetes: 21
 # Team members per row
+peopleInFirstRow: 4
 peoplePerRow: 3
 
 # More Info links

@@ -8,7 +8,11 @@
         </div>
         <div class="row">
             {% for member in site.people %}
-            <div class="col-xs-6 col-sm-{{ 12 | divided_by:site.peoplePerRow }}">
+            {% if forloop.index <= site.peopleInFirstRow %}
+                <div class="col-xs-6 col-sm-{{ 12 | divided_by:site.peopleInFirstRow }}">
+            {% else %}
+                <div class="col-xs-6 col-sm-{{ 12 | divided_by:site.peoplePerRow }}">
+            {% endif %}
                 <div class="team-member" data-name="{{ member.name }}" data-occupation="{{ member.occupation }}" data-years="{{ member.yearsWithDiabetes }}">
                     <img src="img/team/{{ member.pic }}_square_small.jpg" class="img-responsive img-circle" alt="">
                 </div>
