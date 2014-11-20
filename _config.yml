@@ -103,6 +103,9 @@ sponsors:
 - url: "http://www.tandemdiabetes.com/"
   icon: "Tandem-Diabetes-Care.jpeg"
 
+- url: "http://iheartguts.com/"
+  icon: "iheartguts.png"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
