@@ -290,7 +290,7 @@ header {
 }
 
 @media(min-width:768px) {
-    header {
+    header:not(.no-img) {
         background-image: url(../img/banner-T1D.jpg);
     }
 }

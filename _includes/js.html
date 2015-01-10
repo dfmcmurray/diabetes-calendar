@@ -89,3 +89,12 @@
             });
         });
     </script>
+
+    <!-- Script to setup model info popover -->
+    <script type="text/javascript">
+        $(function(){
+            if (window.location.search === "?sfw=1") {
+                $('header').addClass('no-img');
+            }
+        });
+    </script>
