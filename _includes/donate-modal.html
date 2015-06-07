@@ -1,0 +1,38 @@
+ <!-- Donate Modal -->
+<div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledBy="buyModalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="buyModalTitle">Donate to T1D Exposed</h4>
+            </div>
+            <div class="modal-body">
+                <label class='calendar-purchase-desc'>Help further Type 1 Diabetes awareness and research by supporting T1D Exposed with a one-time donation.</label>
+            </div>
+            <div class="modal-footer">
+                <form class="form-horizontal" role="form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="t1dexposed@gmail.com">
+                    <input type="hidden" name="lc" value="US">
+                    <input type="hidden" name="item_name" value="T1D Exposed Donation">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="button_subtype" value="services">
+                    <input type="hidden" name="no_note" value="0">
+                    <table><tr><td>
+                        <div class="form-group quantity-container">
+                            <label for="calendar-quantity" class="col-sm-5 col-sm-offset-1 control-label">Donation Amount:</label>
+                            <div class="col-sm-4">
+                                <input type="number" class="form-control" id="calendar-quantity" name="amount" value="10.00">
+                            </div>
+                            <label class="col-sm-1 donation-usd">USD</label>
+                        </div>
+                    </td></tr></table>
+                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                    <input type="image" class="paypal-buy-now" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

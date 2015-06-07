@@ -969,6 +969,9 @@ section#contact form.wufoo .hidden-input {
 .modal-content #quantityInput {
     width: 60px;
 }
+.modal-content label.donation-usd {
+    margin-top: 10px;
+}
 .modal-content .calendar-purchase-desc {
     font-weight: normal;
 }
