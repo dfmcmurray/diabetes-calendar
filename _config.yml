@@ -83,10 +83,6 @@ links:
   icon: jdrf.jpeg
   desc: "JDRF's mission is to find a cure for type 1 diabetes (T1D) and its complications through the support of research."
 
-- url: "http://diatribe.org"
-  icon: diaTribe.jpg
-  desc: "A newsletter with curated research and product news articles for people with diabetes."
-
 - url: "http://dyf.org/"
   icon: dyf.png
   desc: "DYF’s education and recreational programs equip children, teens & families with the courage, competence and confidence to live well with T1D."
