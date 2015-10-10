@@ -16,61 +16,46 @@ color:
 
 # Team names, titles and social links
 people:
-- pic: 9
-  name: Tara
-  occupation: Photographer
-  yearsWithDiabetes: 20
-- pic: 1
-  name: Lucas
-  occupation: Founder of DASH Camp
-  yearsWithDiabetes: 19
-- pic: 6
-  name: Kat
-  occupation: Healthcare Professional
-  yearsWithDiabetes: 15
-- pic: 4
-  name: Courtney
-  occupation: Community Builder
-  yearsWithDiabetes: 13
-- pic: 7
-  name: Omid
-  occupation: Researcher at Facebook
-  yearsWithDiabetes: 9
-- pic: 8
-  name: Julia
-  occupation: Hospitality and Tourism Student
-  yearsWithDiabetes: 19
-- pic: 5
-  name: Johanna
-  occupation: Nursing Student
-  yearsWithDiabetes: 7
-- pic: 3
-  name: Claire
-  occupation: Fashion and Consumer Studies Student
+- name: Anita
+  occupation: Actress and Action Star
   yearsWithDiabetes: 18
-- pic: 2
-  name: Sam
-  occupation: Clinical Social Worker
-  yearsWithDiabetes: 1
-- pic: 10
-  name: Jeannie
-  occupation: "RN, CDE, Camp Nurse"
+- name: Janie
+  occupation: Personal Trainer and Health Coach
+  yearsWithDiabetes: 14
+- name: Joe
+  occupation: Entrepreneur
   yearsWithDiabetes: 50
-- pic: 11
-  name: Stephanie
-  occupation: Graduate Student in Cinema Studies
-  yearsWithDiabetes: 10
-- pic: 12
-  name: Emily
-  occupation: Legal Studies Student
-  yearsWithDiabetes: 12
-- pic: 13
-  name: Marit
-  occupation: Executive Assistant/Student
-  yearsWithDiabetes: 21
+- name: Brooke
+  occupation: Founder of Type One Diabetic Sugar Mommas
+  yearsWithDiabetes: 30
+- name: Kiana
+  occupation: Philosophy Student
+  yearsWithDiabetes: 2
+- name: Gary
+  occupation: Healthcare Professional 
+  yearsWithDiabetes: 62
+- name: Lai
+  occupation: Entrepreneur
+  yearsWithDiabetes: 5
+- name: Jacque
+  occupation: Biologist and Potter 
+  yearsWithDiabetes: 22
+- name: Jerry
+  occupation: Music and Sports Executiver
+  yearsWithDiabetes: 3
+- name: Kathleen
+  occupation: Type One Diabetes Clinical Trial Coordinator 
+  yearsWithDiabetes: 20
+- name: Chris
+  occupation: Mechanical Engineer
+  yearsWithDiabetes: 24
+- name: Kelsey
+  occupation: Writer and Content Developer
+  yearsWithDiabetes: 22
+
 # Team members per row
 peopleInFirstRow: 4
-peoplePerRow: 3
+peoplePerRow: 4
 
 # More Info links
 links:
