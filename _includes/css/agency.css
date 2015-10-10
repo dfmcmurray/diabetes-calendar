@@ -905,6 +905,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.intro-heading-bottom {
+    font-size: 25px;
+    margin-left: auto;
+    max-width: 500px;
+    margin-right: auto;
+}
 section#about .proj-about {
     max-width: 850px;
     margin-left: auto;
