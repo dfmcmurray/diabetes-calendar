@@ -122,11 +122,14 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl.buy-now-btn {
-    margin-top: 25px;
+    padding: 30px 50px;
 }
 
-.btn-xl {
-    padding: 30px 50px;
+.buy-now-btn {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-color: #{{ site.color.primary }};
     border-radius: 6px;
     text-transform: uppercase;
@@ -144,42 +147,42 @@ fieldset[disabled] .btn-primary.active {
     }
 }
 
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
+.buy-now-btn:hover,
+.buy-now-btn:focus,
+.buy-now-btn:active,
+.buy-now-btn.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.color.primary }};
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
 
-.btn-xl:active,
-.btn-xl.active,
+.buy-now-btn:active,
+.buy-now-btn.active,
 .open .dropdown-toggle.btn-xl {
     background-image: none;
 }
 
-.btn-xl.disabled,
-.btn-xl[disabled],
+.buy-now-btn.disabled,
+.buy-now-btn[disabled],
 fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
+.buy-now-btn.disabled:hover,
+.buy-now-btn[disabled]:hover,
 fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
+.buy-now-btn.disabled:focus,
+.buy-now-btn[disabled]:focus,
 fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
+.buy-now-btn.disabled:active,
+.buy-now-btn[disabled]:active,
 fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
+.buy-now-btn.disabled.active,
+.buy-now-btn[disabled].active,
 fieldset[disabled] .btn-xl.active {
     border-color: #{{ site.color.primary }};
     background-color: #{{ site.color.primary }};
 }
 
-.btn-xl .badge {
+.buy-now-btn.badge {
     color: #{{ site.color.primary }};
     background-color: #fff;
 }
