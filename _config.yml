@@ -81,8 +81,8 @@ sponsors:
 - url: "http://dfmwebstudio.com"
   icon: "dfm-web-studio.png"
 
-- url: "http://iheartguts.com/"
-  icon: "iheartguts.png"
+- url: "http://www.rebelsun.com/"
+  icon: "rebelsun.png"
 
 # Build settings
 markdown: kramdown
