@@ -16,46 +16,52 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Anita
+- name: 1
   occupation: Actress and Action Star
   yearsWithDiabetes: 18
-- name: Janie
+- name: 2
   occupation: Personal Trainer and Health Coach
   yearsWithDiabetes: 14
-- name: Joe
+- name: 3
   occupation: Entrepreneur
   yearsWithDiabetes: 50
-- name: Brooke
+- name: 4
   occupation: Founder of Type One Diabetic Sugar Mommas
   yearsWithDiabetes: 30
-- name: Kiana
+- name: 5
   occupation: Philosophy Student
   yearsWithDiabetes: 2
-- name: Gary
+- name: 6
   occupation: Healthcare Professional 
   yearsWithDiabetes: 62
-- name: Lai
+- name: 7
   occupation: Entrepreneur
   yearsWithDiabetes: 5
-- name: Jacque
+- name: 8
   occupation: Biologist and Potter 
   yearsWithDiabetes: 22
-- name: Jerry
+- name: 9
   occupation: "Executive Producer: TV, Sports, Music"
   yearsWithDiabetes: 3
-- name: Kathleen
+- name: 10
   occupation: Type One Diabetes Clinical Trial Coordinator 
   yearsWithDiabetes: 20
-- name: Chris
+- name: 11
   occupation: Mechanical Engineer
   yearsWithDiabetes: 24
-- name: Kelsey
+- name: 12
+  occupation: Writer and Content Developer
+  yearsWithDiabetes: 22
+- name: 13
+  occupation: Writer and Content Developer
+  yearsWithDiabetes: 22
+- name: 14
   occupation: Writer and Content Developer
   yearsWithDiabetes: 22
 
 # Team members per row
 peopleInFirstRow: 4
-peoplePerRow: 4
+peoplePerRow: 5
 
 # More Info links
 links:
