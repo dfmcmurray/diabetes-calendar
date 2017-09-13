@@ -15,9 +15,9 @@
             {% endif %} -->
             {% assign mod = forloop.index0 | subract:site.peopleInFirstRow | modulo:site.peoplePerRow %}
             {% if forloop.index0 == 0 %}
-                <div class="col-xs-6 col-sm-2 col-sm-offset-1">
-            {% elsif mod == 0 %}
                 <div class="col-xs-6 col-sm-2 col-sm-offset-2">
+            {% elsif mod == 0 %}
+                <div class="col-xs-6 col-sm-2 col-sm-offset-1">
             {% else %}
                 <div class="col-xs-6 col-sm-2">
             {% endif %}
