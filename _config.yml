@@ -16,48 +16,48 @@ color:
 
 # Team names, titles and social links
 people:
-- name: 1
-  occupation: Actress and Action Star
-  yearsWithDiabetes: 18
-- name: 2
-  occupation: Personal Trainer and Health Coach
-  yearsWithDiabetes: 14
-- name: 3
-  occupation: Entrepreneur
-  yearsWithDiabetes: 50
-- name: 4
-  occupation: Founder of Type One Diabetic Sugar Mommas
-  yearsWithDiabetes: 30
-- name: 5
-  occupation: Philosophy Student
-  yearsWithDiabetes: 2
-- name: 6
-  occupation: Healthcare Professional 
-  yearsWithDiabetes: 62
-- name: 7
-  occupation: Entrepreneur
-  yearsWithDiabetes: 5
-- name: 8
-  occupation: Biologist and Potter 
-  yearsWithDiabetes: 22
-- name: 9
-  occupation: "Executive Producer: TV, Sports, Music"
-  yearsWithDiabetes: 3
-- name: 10
-  occupation: Type One Diabetes Clinical Trial Coordinator 
+- name: Rick
+  occupation: Retired Hairstylist and JDRF Board Member
+  yearsWithDiabetes: 10
+- name: Jenny
+  occupation: Roller Derby Enthusiast
+  yearsWithDiabetes: 33
+- name: Robert
+  occupation: Scientist
+  yearsWithDiabetes: 8
+- name: Leigh
+  occupation: Journalist
   yearsWithDiabetes: 20
-- name: 11
-  occupation: Mechanical Engineer
-  yearsWithDiabetes: 24
-- name: 12
-  occupation: Writer and Content Developer
+- name: Callie
+  occupation: Ultimate Clemson Tigers Football Enthusiast
+  yearsWithDiabetes: 30
+- name: Anthony
+  occupation: Health Coach 
+  yearsWithDiabetes: 11
+- name: Lauren
+  occupation: Professional Skier
+  yearsWithDiabetes: 20
+- name: Ryan
+  occupation: Gardener 
+  yearsWithDiabetes: 37
+- name: John
+  occupation: Lumberjack
+  yearsWithDiabetes: 18
+- name: Kim
+  occupation: Social Justice Activist 
   yearsWithDiabetes: 22
-- name: 13
-  occupation: Writer and Content Developer
-  yearsWithDiabetes: 22
-- name: 14
-  occupation: Writer and Content Developer
-  yearsWithDiabetes: 22
+- name: Nick
+  occupation: Video Gamer
+  yearsWithDiabetes: 8
+- name: Kelly
+  occupation: New Mom and Yogi
+  yearsWithDiabetes: 23
+- name: Doris
+  occupation: Entrepreneur & Luxury Model
+  yearsWithDiabetes: 4
+- name: Anna
+  occupation: Nurse
+  yearsWithDiabetes: 27
 
 # Team members per row
 peopleInFirstRow: 4
