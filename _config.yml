@@ -18,46 +18,46 @@ color:
 people:
 - name: Rick
   occupation: Retired Hairstylist and JDRF Board Member
-  yearsWithDiabetes: 10
+  yearsWithDiabetesText: Living with T1d for 10 years.
 - name: Jenny
   occupation: Roller Derby Enthusiast
-  yearsWithDiabetes: 33
-- name: Robert
+  yearsWithDiabetesText: Living with T1d for 33 years.
+- name: Rob
   occupation: Scientist
-  yearsWithDiabetes: 8
+  yearsWithDiabetesText: Living with T1d for 6 years.
 - name: Leigh
   occupation: Journalist
-  yearsWithDiabetes: 20
+  yearsWithDiabetesText: Living with T1d for 20 years.
 - name: Callie
   occupation: Ultimate Clemson Tigers Football Enthusiast
-  yearsWithDiabetes: 30
+  yearsWithDiabetesText: Living with T1d for 30 years.
 - name: Anthony
   occupation: Health Coach 
-  yearsWithDiabetes: 11
+  yearsWithDiabetesText: Living with T1d for 11 years.
 - name: Lauren
   occupation: Professional Skier
-  yearsWithDiabetes: 20
+  yearsWithDiabetesText: Living with T1D since childhood
 - name: Ryan
   occupation: Gardener 
-  yearsWithDiabetes: 37
+  yearsWithDiabetesText: Living with T1d for 37 years.
 - name: John
   occupation: Lumberjack
-  yearsWithDiabetes: 18
+  yearsWithDiabetesText: Living with T1d for 18 years.
 - name: Kim
   occupation: Social Justice Activist 
-  yearsWithDiabetes: 22
+  yearsWithDiabetesText: Living with T1d for 22 years.
 - name: Nick
   occupation: Video Gamer
-  yearsWithDiabetes: 8
+  yearsWithDiabetesText: Living with T1d for 8 years.
 - name: Kelly
   occupation: New Mom and Yogi
-  yearsWithDiabetes: 23
+  yearsWithDiabetesText: Living with T1d for 23 years.
 - name: Doris
   occupation: Entrepreneur & Luxury Model
-  yearsWithDiabetes: 4
+  yearsWithDiabetesText: Living with T1d for 4 years.
 - name: Anna
   occupation: Nurse
-  yearsWithDiabetes: 27
+  yearsWithDiabetesText: Living with T1d for 27 years.
 
 # Team members per row
 peopleInFirstRow: 4
