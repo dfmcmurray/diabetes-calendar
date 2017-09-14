@@ -18,46 +18,46 @@ color:
 people:
 - name: Rick
   occupation: Retired Hairstylist and JDRF Board Member
-  yearsWithDiabetesText: Living with T1d for 10 years.
+  yearsWithDiabetesText: Living with T1D for 10 years.
 - name: Jenny
   occupation: Roller Derby Enthusiast
-  yearsWithDiabetesText: Living with T1d for 33 years.
+  yearsWithDiabetesText: Living with T1D for 33 years.
 - name: Rob
   occupation: Scientist
-  yearsWithDiabetesText: Living with T1d for 6 years.
+  yearsWithDiabetesText: Living with T1D for 6 years.
 - name: Leigh
   occupation: Journalist
-  yearsWithDiabetesText: Living with T1d for 20 years.
+  yearsWithDiabetesText: Living with T1D for 20 years.
 - name: Callie
   occupation: Ultimate Clemson Tigers Football Enthusiast
-  yearsWithDiabetesText: Living with T1d for 30 years.
+  yearsWithDiabetesText: Living with T1D for 30 years.
 - name: Anthony
   occupation: Health Coach 
-  yearsWithDiabetesText: Living with T1d for 11 years.
+  yearsWithDiabetesText: Living with T1D for 11 years.
 - name: Lauren
   occupation: Professional Skier
   yearsWithDiabetesText: Living with T1D since childhood
 - name: Ryan
   occupation: Gardener 
-  yearsWithDiabetesText: Living with T1d for 37 years.
+  yearsWithDiabetesText: Living with T1D for 37 years.
 - name: John
   occupation: Lumberjack
-  yearsWithDiabetesText: Living with T1d for 18 years.
+  yearsWithDiabetesText: Living with T1D for 18 years.
 - name: Kim
   occupation: Social Justice Activist 
-  yearsWithDiabetesText: Living with T1d for 22 years.
+  yearsWithDiabetesText: Living with T1D for 22 years.
 - name: Nick
   occupation: Video Gamer
-  yearsWithDiabetesText: Living with T1d for 8 years.
+  yearsWithDiabetesText: Living with T1D for 8 years.
 - name: Kelly
   occupation: New Mom and Yogi
-  yearsWithDiabetesText: Living with T1d for 23 years.
+  yearsWithDiabetesText: Living with T1D for 23 years.
 - name: Doris
   occupation: Entrepreneur & Luxury Model
-  yearsWithDiabetesText: Living with T1d for 4 years.
+  yearsWithDiabetesText: Living with T1D for 4 years.
 - name: Anna
   occupation: Nurse
-  yearsWithDiabetesText: Living with T1d for 27 years.
+  yearsWithDiabetesText: Living with T1D for 27 years.
 
 # Team members per row
 peopleInFirstRow: 4
